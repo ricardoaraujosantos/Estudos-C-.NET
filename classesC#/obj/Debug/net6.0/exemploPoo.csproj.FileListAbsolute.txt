@@ -1,0 +1,15 @@
+E:\cursos-dev\curso-dio\avanade\Poo\exemploPoo\bin\Debug\net6.0\exemploPoo.exe
+E:\cursos-dev\curso-dio\avanade\Poo\exemploPoo\bin\Debug\net6.0\exemploPoo.deps.json
+E:\cursos-dev\curso-dio\avanade\Poo\exemploPoo\bin\Debug\net6.0\exemploPoo.runtimeconfig.json
+E:\cursos-dev\curso-dio\avanade\Poo\exemploPoo\bin\Debug\net6.0\exemploPoo.dll
+E:\cursos-dev\curso-dio\avanade\Poo\exemploPoo\bin\Debug\net6.0\ref\exemploPoo.dll
+E:\cursos-dev\curso-dio\avanade\Poo\exemploPoo\bin\Debug\net6.0\exemploPoo.pdb
+E:\cursos-dev\curso-dio\avanade\Poo\exemploPoo\obj\Debug\net6.0\exemploPoo.csproj.AssemblyReference.cache
+E:\cursos-dev\curso-dio\avanade\Poo\exemploPoo\obj\Debug\net6.0\exemploPoo.GeneratedMSBuildEditorConfig.editorconfig
+E:\cursos-dev\curso-dio\avanade\Poo\exemploPoo\obj\Debug\net6.0\exemploPoo.AssemblyInfoInputs.cache
+E:\cursos-dev\curso-dio\avanade\Poo\exemploPoo\obj\Debug\net6.0\exemploPoo.AssemblyInfo.cs
+E:\cursos-dev\curso-dio\avanade\Poo\exemploPoo\obj\Debug\net6.0\exemploPoo.csproj.CoreCompileInputs.cache
+E:\cursos-dev\curso-dio\avanade\Poo\exemploPoo\obj\Debug\net6.0\exemploPoo.dll
+E:\cursos-dev\curso-dio\avanade\Poo\exemploPoo\obj\Debug\net6.0\ref\exemploPoo.dll
+E:\cursos-dev\curso-dio\avanade\Poo\exemploPoo\obj\Debug\net6.0\exemploPoo.pdb
+E:\cursos-dev\curso-dio\avanade\Poo\exemploPoo\obj\Debug\net6.0\exemploPoo.genruntimeconfig.cache

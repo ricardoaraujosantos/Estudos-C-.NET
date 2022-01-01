@@ -22,6 +22,16 @@ namespace ExemploConstrutores
            Aluno a1 = new Aluno("Ricardo","Santos", "C-Sharp");
            a1.Apresentar();
 
+           //GET e SET validação
+           //Mes vallido
+           Data m1 = new Data();
+           m1.SetMes(4);
+           m1.ApresentarMes();
+
+           //Mes invalido
+           Data m2 = new Data();
+           m2.SetMes(14);
+           m2.ApresentarMes();
         }
     }
 }

@@ -5,8 +5,9 @@ namespace ExemploConstrutores
 {
     class Program
     {
+        public delegate void Operacao(int x, int y);
         static void Main(string[] Args)
-        {
+        {   
             //Construtor
            Pessoa p1 = new Pessoa("Ricardo", "Santos");  
            p1.Apresentar();
@@ -45,6 +46,17 @@ namespace ExemploConstrutores
            data2.Mes = 13;
            data2.ApresentarMes();
 
+           //delegates
+           Operacao op1 = new Operacao(Calculadora.somar);
+           //delegate multi cast
+           op1 += Calculadora.subtrair;
+           op1.Invoke(15, 10);
+
+           //Forma de instanciar sem o new
+           Operacao op2 = Calculadora.subtrair;
+           //delegate multi cast
+           op2 += Calculadora.somar;
+           op2(20, 10);
         }
     }
 }

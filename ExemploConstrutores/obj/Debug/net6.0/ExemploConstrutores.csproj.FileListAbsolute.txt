@@ -1,0 +1,15 @@
+E:\cursos-dev\curso-dio\avanade\Poo\Estudos-C-SHARP-.NET\ExemploConstrutores\bin\Debug\net6.0\ExemploConstrutores.exe
+E:\cursos-dev\curso-dio\avanade\Poo\Estudos-C-SHARP-.NET\ExemploConstrutores\bin\Debug\net6.0\ExemploConstrutores.deps.json
+E:\cursos-dev\curso-dio\avanade\Poo\Estudos-C-SHARP-.NET\ExemploConstrutores\bin\Debug\net6.0\ExemploConstrutores.runtimeconfig.json
+E:\cursos-dev\curso-dio\avanade\Poo\Estudos-C-SHARP-.NET\ExemploConstrutores\bin\Debug\net6.0\ExemploConstrutores.dll
+E:\cursos-dev\curso-dio\avanade\Poo\Estudos-C-SHARP-.NET\ExemploConstrutores\bin\Debug\net6.0\ref\ExemploConstrutores.dll
+E:\cursos-dev\curso-dio\avanade\Poo\Estudos-C-SHARP-.NET\ExemploConstrutores\bin\Debug\net6.0\ExemploConstrutores.pdb
+E:\cursos-dev\curso-dio\avanade\Poo\Estudos-C-SHARP-.NET\ExemploConstrutores\obj\Debug\net6.0\ExemploConstrutores.csproj.AssemblyReference.cache
+E:\cursos-dev\curso-dio\avanade\Poo\Estudos-C-SHARP-.NET\ExemploConstrutores\obj\Debug\net6.0\ExemploConstrutores.GeneratedMSBuildEditorConfig.editorconfig
+E:\cursos-dev\curso-dio\avanade\Poo\Estudos-C-SHARP-.NET\ExemploConstrutores\obj\Debug\net6.0\ExemploConstrutores.AssemblyInfoInputs.cache
+E:\cursos-dev\curso-dio\avanade\Poo\Estudos-C-SHARP-.NET\ExemploConstrutores\obj\Debug\net6.0\ExemploConstrutores.AssemblyInfo.cs
+E:\cursos-dev\curso-dio\avanade\Poo\Estudos-C-SHARP-.NET\ExemploConstrutores\obj\Debug\net6.0\ExemploConstrutores.csproj.CoreCompileInputs.cache
+E:\cursos-dev\curso-dio\avanade\Poo\Estudos-C-SHARP-.NET\ExemploConstrutores\obj\Debug\net6.0\ExemploConstrutores.dll
+E:\cursos-dev\curso-dio\avanade\Poo\Estudos-C-SHARP-.NET\ExemploConstrutores\obj\Debug\net6.0\ref\ExemploConstrutores.dll
+E:\cursos-dev\curso-dio\avanade\Poo\Estudos-C-SHARP-.NET\ExemploConstrutores\obj\Debug\net6.0\ExemploConstrutores.pdb
+E:\cursos-dev\curso-dio\avanade\Poo\Estudos-C-SHARP-.NET\ExemploConstrutores\obj\Debug\net6.0\ExemploConstrutores.genruntimeconfig.cache

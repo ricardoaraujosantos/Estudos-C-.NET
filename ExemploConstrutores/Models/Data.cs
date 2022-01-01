@@ -4,19 +4,20 @@ namespace ExemploConstrutores.Models
     {
         private int mes;
         private bool mesInvalido;
-        public int GetMes()
-        {
-            return this.mes;
-        }
+        
+        // public int GetMes()
+        // {
+        //     return this.mes;
+        // }
 
-        public void SetMes(int mes)
-        {
-            if(mes > 0 && mes <= 12)
-            {
-                this.mes = mes;
-                mesInvalido = true;
-            }
-        }
+        // public void SetMes(int mes)
+        // {
+        //     if(mes > 0 && mes <= 12)
+        //     {
+        //         this.mes = mes;
+        //         mesInvalido = true;
+        //     }
+        // }
         public int Mes 
         { 
             get

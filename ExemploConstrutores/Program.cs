@@ -57,6 +57,11 @@ namespace ExemploConstrutores
            //delegate multi cast
            op2 += Calculadora.somar;
            op2(20, 10);
+
+           //Modifificador readonly
+           PessoaReadonly m1 = new PessoaReadonly("João", "Silva");
+           m1.Apresentar();
+
         }
     }
 }

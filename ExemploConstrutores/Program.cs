@@ -62,6 +62,9 @@ namespace ExemploConstrutores
            PessoaReadonly m1 = new PessoaReadonly("João", "Silva");
            m1.Apresentar();
 
+           //Eventos
+           Matematica event1 = new Matematica(40, 30);
+           event1.somar();
         }
     }
 }

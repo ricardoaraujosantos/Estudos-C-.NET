@@ -32,6 +32,19 @@ namespace ExemploConstrutores
            Data m2 = new Data();
            m2.SetMes(14);
            m2.ApresentarMes();
+
+           //GET e SET propriedades
+           Data data1 = new Data();
+           Data data2 = new Data();
+
+           //Mes valido
+           data1.Mes = 8;
+           data1.ApresentarMes();
+
+           //Mes invalido
+           data2.Mes = 13;
+           data2.ApresentarMes();
+
         }
     }
 }

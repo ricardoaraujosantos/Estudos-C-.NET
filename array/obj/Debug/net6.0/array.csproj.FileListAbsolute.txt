@@ -1,0 +1,15 @@
+E:\cursos-dev\curso-dio\avanade\Poo\Estudos-C-SHARP-.NET\array\bin\Debug\net6.0\array.exe
+E:\cursos-dev\curso-dio\avanade\Poo\Estudos-C-SHARP-.NET\array\bin\Debug\net6.0\array.deps.json
+E:\cursos-dev\curso-dio\avanade\Poo\Estudos-C-SHARP-.NET\array\bin\Debug\net6.0\array.runtimeconfig.json
+E:\cursos-dev\curso-dio\avanade\Poo\Estudos-C-SHARP-.NET\array\bin\Debug\net6.0\array.dll
+E:\cursos-dev\curso-dio\avanade\Poo\Estudos-C-SHARP-.NET\array\bin\Debug\net6.0\ref\array.dll
+E:\cursos-dev\curso-dio\avanade\Poo\Estudos-C-SHARP-.NET\array\bin\Debug\net6.0\array.pdb
+E:\cursos-dev\curso-dio\avanade\Poo\Estudos-C-SHARP-.NET\array\obj\Debug\net6.0\array.csproj.AssemblyReference.cache
+E:\cursos-dev\curso-dio\avanade\Poo\Estudos-C-SHARP-.NET\array\obj\Debug\net6.0\array.GeneratedMSBuildEditorConfig.editorconfig
+E:\cursos-dev\curso-dio\avanade\Poo\Estudos-C-SHARP-.NET\array\obj\Debug\net6.0\array.AssemblyInfoInputs.cache
+E:\cursos-dev\curso-dio\avanade\Poo\Estudos-C-SHARP-.NET\array\obj\Debug\net6.0\array.AssemblyInfo.cs
+E:\cursos-dev\curso-dio\avanade\Poo\Estudos-C-SHARP-.NET\array\obj\Debug\net6.0\array.csproj.CoreCompileInputs.cache
+E:\cursos-dev\curso-dio\avanade\Poo\Estudos-C-SHARP-.NET\array\obj\Debug\net6.0\array.dll
+E:\cursos-dev\curso-dio\avanade\Poo\Estudos-C-SHARP-.NET\array\obj\Debug\net6.0\ref\array.dll
+E:\cursos-dev\curso-dio\avanade\Poo\Estudos-C-SHARP-.NET\array\obj\Debug\net6.0\array.pdb
+E:\cursos-dev\curso-dio\avanade\Poo\Estudos-C-SHARP-.NET\array\obj\Debug\net6.0\array.genruntimeconfig.cache

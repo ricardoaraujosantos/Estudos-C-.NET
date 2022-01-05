@@ -45,12 +45,47 @@ namespace array
              int[] arrayNum = new int[8] {5, 2, 7, 4, 6, 1, 3, 6};
 
              OrdenarArray ordArray = new OrdenarArray();
-             System.Console.WriteLine("Array original:");
-             ordArray.imprimirArray(arrayNum);
+            //System.Console.WriteLine("Array original:");
+            //  ordArray.imprimirArray(arrayNum);
 
-             ordArray.OrdenarBubbleSorte(ref arrayNum);
-             System.Console.WriteLine("Array ordenado Bubble Sort:");
-             ordArray.imprimirArray(arrayNum);
+            //  ordArray.OrdenarBubbleSorte(ref arrayNum);
+            //  System.Console.WriteLine("Array ordenado Bubble Sort:");
+            //  ordArray.imprimirArray(arrayNum);
+
+             //classe Array:
+             //metodo Sort
+             System.Console.WriteLine("arrayNum original não ordenado linha");
+             ordArray.imprimirArrayLinha(arrayNum);
+             ordArray.ordenarClasseArraySort(ref arrayNum);
+             System.Console.WriteLine("arrayNum ordenado linha");
+             ordArray.imprimirArrayLinha(arrayNum);
+
+             //metodo Copy
+             int[] arrayCopy = new int[12];
+             ordArray.CopiarArray(ref arrayNum, ref arrayCopy);
+             System.Console.WriteLine("arrayCopy Copiado de arrayNum");
+             ordArray.imprimirArrayLinha(arrayCopy);
+
+             //metodo exists
+             int valorProcurado = 2;
+             bool existe = ordArray.Existe(arrayNum, valorProcurado);
+
+             if(existe)
+             {
+                 System.Console.WriteLine($"Valor {valorProcurado} existe e foi encontrado");
+             }
+             else
+             {
+                 System.Console.WriteLine($"O valor {valorProcurado} não existe no arrayNum");
+             }
+
+             //metodo IndexOf
+             int indice = ordArray.obterIndex(arrayCopy, valorProcurado);
+
+             if(indice > -1)
+             {
+                 System.Console.WriteLine($"O indice do elemento é {indice} valor procurado {valorProcurado}");
+             }
          }
     }
 }

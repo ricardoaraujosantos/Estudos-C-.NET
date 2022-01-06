@@ -53,5 +53,13 @@ namespace array.Helper
         {
             return Array.IndexOf(array, value);
         }
+        public void redimensionarArray(ref int[] array, int novoTamnho)
+        {
+            Array.Resize(ref array, novoTamnho);
+        }
+        public string[] converterArrayParaString(int[] array)
+        {
+            return Array.ConvertAll(array, elemento => elemento.ToString());
+        }
     }
 }

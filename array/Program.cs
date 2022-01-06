@@ -67,7 +67,7 @@ namespace array
              ordArray.imprimirArrayLinha(arrayCopy);
 
              //metodo exists
-             int valorProcurado = 2;
+             int valorProcurado = 5;
              bool existe = ordArray.Existe(arrayNum, valorProcurado);
 
              if(existe)
@@ -85,7 +85,23 @@ namespace array
              if(indice > -1)
              {
                  System.Console.WriteLine($"O indice do elemento é {indice} valor procurado {valorProcurado}");
+             } 
+             else
+             {
+                 System.Console.WriteLine("O indice procurado não existe");
              }
+
+             //metodo Resize
+
+             System.Console.WriteLine($"Redimensionando array tamanho atual: {arrayNum.Length}");
+             ordArray.redimensionarArray(ref arrayNum, arrayNum.Length * 2);
+             System.Console.WriteLine($"Array redimensionado novo tamanho: {arrayNum.Length}");
+
+             //metodo ConvertAll
+             int[] ArrayInteiros = new int[4] {4, 6, 8, 10};
+             System.Console.WriteLine($"Array de inteiros: {ArrayInteiros}");
+             string[] arrayString =  ordArray.converterArrayParaString(ArrayInteiros);
+             System.Console.WriteLine($"Array de inteiros convertido para string: {ArrayInteiros}");
          }
     }
 }

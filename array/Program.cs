@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using array.Helper;
 
 namespace array
@@ -102,6 +103,34 @@ namespace array
              System.Console.WriteLine($"Array de inteiros: {ArrayInteiros}");
              string[] arrayString =  ordArray.converterArrayParaString(ArrayInteiros);
              System.Console.WriteLine($"Array de inteiros convertido para string: {ArrayInteiros}");
+
+            //Listas Genericas
+
+            operacoesList opListas = new operacoesList();
+            List<string> estados = new List<string>() {"SP", "MG", "SE", "BA"};
+            string[] arrayEstados = new string[3]{"RO", "PI", "PA"};
+
+            //Adicionar
+            estados.Add("CE");
+            opListas.imprimirListas(estados);
+            System.Console.WriteLine("Quantidade de Estados contidos na lista: {0}", estados.Count);
+
+            //Remover
+            estados.Remove("SE");
+            opListas.imprimirListas(estados);
+            System.Console.WriteLine("Quantidade de Estados contidos na lista: {0}", estados.Count);
+
+            //Adicionar um array a lista
+            estados.AddRange(arrayEstados);
+            opListas.imprimirListas(estados);
+            System.Console.WriteLine("Quantidade de Estados contidos na lista: {0}", estados.Count);
+
+            //Adicionar um novo valor a lista em um indice especifico
+            estados.Insert(0, "TO");
+            opListas.imprimirListas(estados);
+            System.Console.WriteLine("Quantidade de Estados contidos na lista: {0}", estados.Count);
+
+            
          }
     }
 }

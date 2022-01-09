@@ -130,7 +130,26 @@ namespace array
             opListas.imprimirListas(estados);
             System.Console.WriteLine("Quantidade de Estados contidos na lista: {0}", estados.Count);
 
-            
+            //Coleçoes especificas 
+            //Fila
+            operacoesFila opFila = new operacoesFila();
+            Queue<string> minhaFila = new Queue<string>();
+            minhaFila.Enqueue("João");
+            minhaFila.Enqueue("Maria");
+            minhaFila.Enqueue("José");
+            minhaFila.Enqueue("Luiz");
+            System.Console.WriteLine("Existe {0} Pessoas na fila", minhaFila.Count);
+            opFila.imprimirFila(minhaFila);
+
+            //Pilha
+            operacoesPilha opPilha = new operacoesPilha();
+            Stack<string> meusLivros = new Stack<string>();
+            meusLivros.Push(".NET");
+            meusLivros.Push("C#");
+            meusLivros.Push("Codigo Limpo");
+            meusLivros.Push("Design Patterns design");
+            System.Console.WriteLine("Livros disponiveis {0}", meusLivros.Count);
+            opPilha.imprimirPilha(meusLivros);
          }
     }
 }

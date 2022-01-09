@@ -99,11 +99,42 @@ namespace array
              System.Console.WriteLine($"Array redimensionado novo tamanho: {arrayNum.Length}");
 
              //metodo ConvertAll
-             int[] ArrayInteiros = new int[4] {4, 6, 8, 10};
+             int[] ArrayInteiros = new int[6] {4, 6, 8, 10, 7, 13};
              System.Console.WriteLine($"Array de inteiros: {ArrayInteiros}");
              string[] arrayString =  ordArray.converterArrayParaString(ArrayInteiros);
              System.Console.WriteLine($"Array de inteiros convertido para string: {ArrayInteiros}");
 
+             //Utilizando Links
+             //Sintaxe Query ordenar somente numeros pares do array
+             var numParesQuery = 
+                    from num in  ArrayInteiros
+                    where num % 2 == 0
+                    orderby num
+                    select num;
+
+            System.Console.WriteLine($"ArrayInteiro numeros pares resultado com Query: {string.Join(", ", numParesQuery)}");
+
+            //Sintaxe metodo ordenar somente numeros pares do array
+            var numParesMetodo = ArrayInteiros.Where(n => n % 2 == 0).OrderBy(n => n).ToList();
+            System.Console.WriteLine($"ArrayInteiros numeros pares resultado com Metodo: {string.Join(", ", numParesMetodo)}");
+
+            //Calcular valor min, max, e medio de um Array
+            //Min, Max, Average
+            System.Console.WriteLine($"Calcular valores min, max e medio do Array numParesMetodos:");
+            var minimo = numParesMetodo.Min();
+            var maximo = numParesMetodo.Max();
+            var medio = numParesMetodo.Average();
+            System.Console.WriteLine("Valor minimo: {0}, valor maximo: {1}, valor medio: {2}",minimo, maximo, medio);
+
+            // Sum e Distinct
+            int[] arrayValorIgual = new int[10] {3, 5, 1, 5, 4, 7, 8, 6, 7, 8};
+            var somaArray = arrayValorIgual.Sum();
+            var valorUnicoarray = arrayValorIgual.Distinct();
+            
+            System.Console.WriteLine("ArrayValorIgual é: {0}", string.Join(", ", arrayValorIgual));
+            System.Console.WriteLine("Soma de arrayValorIgual é igual {0}", somaArray);
+            System.Console.WriteLine("Obter valores unicos em arrayValorIgual: {0}", string.Join(", ", valorUnicoarray));
+            
             //Listas Genericas
 
             operacoesList opListas = new operacoesList();

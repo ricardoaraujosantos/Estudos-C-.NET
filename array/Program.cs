@@ -150,6 +150,36 @@ namespace array
             meusLivros.Push("Design Patterns design");
             System.Console.WriteLine("Livros disponiveis {0}", meusLivros.Count);
             opPilha.imprimirPilha(meusLivros);
+
+            //Dicionarios
+            operacoesDicionario opDicionario = new operacoesDicionario();
+            Dictionary<string, string> estadoCapital = new Dictionary<string, string>();
+
+            //Adicionar chave valor
+            estadoCapital.Add("SE", "Aracajú");
+            estadoCapital.Add("BA", "Salvador");
+            estadoCapital.Add("SP", "São Paulo");
+            System.Console.WriteLine("Possui {0} Estados representando seu Id (Chave) e {0} Capitais representando seus valores referente a capital ", estadoCapital.Count);
+            opDicionario.imprimirDicionario(estadoCapital);
+
+            //Procurar valor através da chave
+            System.Console.WriteLine("procurar valor com chave:");
+            var procurarValorComChave = "SE";
+            System.Console.WriteLine("Chave inserida: {0} valor encontrado: {1}", procurarValorComChave, estadoCapital[procurarValorComChave]);
+
+            //Atualizar chave
+            System.Console.WriteLine("Atualizar chave de busca");
+            procurarValorComChave = "SP";
+            System.Console.WriteLine("Nova chave de busca: {0} resultado {0}-{1}", procurarValorComChave, estadoCapital[procurarValorComChave]);
+
+            //Remover chave valor
+            System.Console.WriteLine("Chaves e Valores existentes");
+            opDicionario.imprimirDicionario(estadoCapital);
+            System.Console.WriteLine("Removendo chave e valor");
+            System.Console.WriteLine("Chave inserida: {0} => Chave e valor {0} removido com sucesso!", procurarValorComChave);
+            estadoCapital.Remove(procurarValorComChave);
+            System.Console.WriteLine("Novo resultado chaves e valores existentes");
+            opDicionario.imprimirDicionario(estadoCapital);
          }
     }
 }
